@@ -1,0 +1,26 @@
+id	Spiritual
+1	“There are days I drop words of comfort on myself like falling leaves and remember that it is enough to be taken care of by 		 myself.” ~Brian Andreas
+8	"Take time to think of what was life giving, and what was life depleting" - Onofre Pagsanhan (non-verbatim)
+9	Life is the journey, not the destination
+
+	Physical
+2	Drink water after your physical activity
+4	You’re going to be sitting for a while, try standing up to keep your blood flowing
+
+	Emotional
+3	Are you feeling okay? Try talking to someone about it
+5	You haven’t had any free time in your schedule, try taking a break to relieve some of your stress
+
+	Social
+6	Have you had a friend you’ve lost touch with?
+7	Feeling lucky today with your crush? Today’s the day to talk to them yiieeeee
+	
+	Occupational
+11	You seem busy!, Make sure to take some time off when you feel like it!
+
+12	Work may be important, but so is family
+
+	Intellectual
+14	If you believe purely by what you see, then you may not have a brain! Learn to be open-minded! 
+
+15	The greatest teacher is experience

@@ -1,0 +1,139 @@
+th {
+	text-align: center;
+	padding: 20px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #8dbec4;
+	height: 35em;
+	width: 100%;
+}
+
+#dayPlanModal {
+	margin: 0 auto;
+}
+
+#back{
+	border-radius: 50%;
+	border: none;
+	box-shadow: 5px 8px 10px #545454;
+	position:fixed;
+    top: 8%;
+    left:3%;
+    height: 8%;
+    width: 4%;
+    background-color: #794465;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+}
+#date{
+	text-align: center;
+	font-size: 3.2vw;
+	font-weight: bolder;
+	padding: 2% 0 2% 0;
+	margin: 0 25% 0 25%;
+	width: 50%;
+
+}
+#middle{
+	margin: 3%;
+	background-color: #f7dcbf;
+	border-radius: 1vw;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: 35em;
+	box-shadow: 5px 8px 10px #7e7e7e;
+}
+#tableHead{
+	font-size: 1.2vw;
+}
+
+#tip-header {
+	margin: 0;
+	padding: 0.5% 0 0.5% 0;
+}
+
+#tip{
+	text-align: center;
+	font-size: 1.8vw;
+	width: 100%;
+	background-color: #d9dde8;
+}
+
+#btn-add-plan {
+	border: none;
+	font-family: Bahnschrift;
+	background-color: #794465;
+	color: white;
+	width: 16em; 
+	padding: 1% 10% 1% 10%;
+}
+
+#wow{
+	margin: 0 auto;
+	width: 65%;
+	table-layout: fixed;
+}
+#time-clock{
+	text-align: center;
+	font-size: 1.6vw;
+	font-weight: bolder;
+	padding-bottom: 2em;
+}
+
+#time {
+	font-size: 1.25em;
+}
+
+#plan{
+	text-align: left;
+	font-size: 1.6em;
+	font-weight: bolder;
+}
+#description{
+	font-size: 1.25em;
+}
+#addPlan{
+	border: none;
+	box-shadow: 5px 8px 10px #545454;
+	border-radius: 50%;
+	position:fixed;
+    top: 18%;
+    left:3%;
+    height: 8%;
+    width: 4%;
+    background-color: #794465;
+    font-size: 3vw;
+
+    color: white;
+}
+
+label[for="id_plan_title"], label[for="id_time_start"], label[for="id_time_end"], label[for="id_plan_description"], label[for="id_plan_tag"] {
+	display: block;
+	font-size: 1.25em;
+}
+
+#id_plan_title{
+	width: 20vw;
+	margin-bottom: 1em;
+}
+
+#id_time_start, #id_time_end{
+	margin-bottom: 1em;
+	width: 8vw;
+}
+
+#id_plan_description, #id_plan_tag{
+	margin-right: 20vw;
+	margin-bottom: .5vw;
+	width: 20vw;
+}
+{
+	margin-left: 1vw;
+	margin-right: 10vw;
+	margin-bottom: 1vw;
+	width: 20vw;
+}

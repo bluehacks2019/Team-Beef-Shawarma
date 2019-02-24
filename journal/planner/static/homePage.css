@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ae809d;
+}
+
+#welcome {
+	text-align: center;
+	font-size: 3.2vw;
+	margin: 2.5vw;
+	background-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+}
+
+.planner-area {
+	margin: 0 auto;
+	background-color: #b8a083;
+	border-radius: 25px;
+	width: 80%;
+	padding: 30px;
+}
+
+.plan-card-area {
+	text-align: center;
+}
+
+.plan-card-area-header {
+	background-color: #a0a3aa;
+	width: 230px;
+	height: 10px;
+	float: top;
+}
+
+.plan-card-day-text{
+	font-size: 2.5vw;
+	font-weight: bolder;
+	font-family: 'Bahnschrift';
+}
+
+.plan-card-line {
+	margin: 5px auto;
+	width: 100px;
+	height: 7px;
+	background-color: #ae809d;
+}
+
+.plan {
+	font-family: Arial;
+	background-color: white;
+}
+
+a #plan-card {
+	background-color: #d9dce8;
+	width: 230px;
+	height: 230px;
+	padding: 1%;
+	box-shadow: 5px 5px 15px grey;
+	margin: 10px 15px 10px 15px;
+	display: inline-block;
+}
+
+
+.errorlist {
+	color: white;
+	font-size: 3px;
+}
+
+.btn-home {
+	background-color: #794465;
+    font-size: 3vw;
+    color: white;
+    position: fixed;
+	border: none;
+	box-shadow: 5px 8px 10px #545454;
+	border-radius: 50%;
+    bottom: 9%;
+    right:3%;
+    height: 8%;
+    width: 4%;
+}
+
+#btn-add-day {
+	border: none;
+	font-family: Bahnschrift;
+	background-color: #794465;
+	color: white;
+	width: 16em; 
+	padding: 1% 10% 1% 10%;
+}
+
+label[for=id_day_made] {
+	font-size: 2em;
+}
+
+#id_day_made {
+	font-size: 1em;
+}
+
+a:link{
+  color:black;
+}
+a:visited{
+  color:black;
+}
+a:hover{
+  color:black;
+}
+a:focus{
+  color:black;
+}
+a:active{
+  color:black;
+}

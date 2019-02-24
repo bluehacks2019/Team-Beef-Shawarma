@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {% for day in day_list %}
+        <h1>{{ day.day_made }}</h1>
+            {% for plan in plan_list %}
+                {% if plan.day.day_made == day.day_made %}
+                <p>{{plan.plan_title}} </p>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        
+    </body>
+</html>

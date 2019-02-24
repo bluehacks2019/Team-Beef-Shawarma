@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="{% static 'modals.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'homePage.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'main.css'%}">
+	<link href='https://fonts.googleapis.com/css?family=Laila' rel='stylesheet'>
+	
+</head>
+
+<body>
+	<div id="welcome">
+		<h2>Welcome to Flow!</h2>
+	</div>
+
+	<div class="planner-area">
+
+		<div id="btn-home-add-day"><button class="btn-home">+</button></div>
+
+		<!-- modal code add plan-->
+		<div id="myModal" class="modal">
+	  		<div class="modal-content">
+	   			<span class="close">&times;</span>
+	   			<div style="text-align: left;">
+					<form method="post">
+						{% csrf_token %}
+						{{day_form}}
+						<p>*Accepted Formats:<br>YYYY/MM/DD and YYYY/M/D</p>
+		  				<button name="submit" id="btn-add-day">Add Day</button>
+					</form> 
+				</div>
+	  		</div>
+		</div>
+		<!-- end of modal code-->
+		<div class="plan-card-area">
+			{% for day in day_list %}
+			<div style="display: inline-block;">
+				<a href="{{day.day_made|date:'Y-m-d'}}">
+					<div id="plan-card" class="plan">
+						<div class="plan-card-area-header"></div>
+						<div class="plan-card-day-text"><p>{{day.day_made}}</p></div><br>
+					</div>
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<script src="{% static 'modals.js'%}"></script>
+
+</body>
+
+</html>
