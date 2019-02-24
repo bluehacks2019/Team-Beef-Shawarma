@@ -47,6 +47,9 @@ body {
 
 #parent {
 	margin: 10px 15px 10px 15px;
+	width: 230px;
+	height: 230px;
+	overflow: hidden;
 }
 
 .plan {

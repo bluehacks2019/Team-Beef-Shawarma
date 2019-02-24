@@ -37,10 +37,9 @@
 		<!-- end of modal code-->
 		<div class="plan-card-area">
 			{% for day in day_list %}
-			<div style="display: inline-block;">
+			<div style="display: inline-block;" id="parent">
 				<a href="{{day.day_made|date:'Y-m-d'}}">
 					<div id="plan-card" class="plan">
-						<div class="plan-card-area-header"></div>
 						<div class="plan-card-day-text"><p>{{day.day_made}}</p></div><br>
 					</div>
 				</a>
